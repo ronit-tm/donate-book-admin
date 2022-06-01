@@ -1,0 +1,24 @@
+.file-input [type='file'] {
+    height: 0;
+    overflow: hidden;
+    width: 0;
+    box-sizing: content-box;
+    display: none;
+  }
+  [type='file'] + label {
+    padding: 4px 0 5px;
+    border: 0;
+    box-sizing: content-box;
+    background: none;
+    height: 1.4375em;
+    margin: 0;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    min-width: 0;
+    -webkit-animation-duration: 10ms;
+    animation-duration: 10ms;
+    padding: 16.5px 14px;
+    border: 1px solid rgba(145, 158, 171, 0.32);
+    width: 50%;
+    border-radius: 10px;
+  }
